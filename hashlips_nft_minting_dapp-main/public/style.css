@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Source+Code+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'VT323', monospace;
+
+}
+
+body {
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+  background: #000000;
+  color: #2cc926;
+  font-family: 'VT323', monospace;
+
+}
+@media screen and (min-width: 768px) {
+    body {
+        font-size: 100px;
+    }
+}
+
+
+/* desktop styles */
+@media screen and (min-width: 1024px) {
+    body {
+        font-size: 40px;
+    }
+}
+
+h1 {
+  position: relative;
+  font-family: 'VT323', monospace;
+  /*font-size: 5vw;*/
+  font-weight: bold;
+  padding-left: 0vw;
+  overflow: hidden;
+}
+
+h1 .hi {
+  display: inline-block;
+}
+
+h1 .text {
+  font-family: 'VT323', monospace;
+  font-weight: normal;
+  padding-left: 1.2vw;
+}
+/*
+h1 .box {
+  position: absolute;
+  bottom: 0;
+  display: inline-block;
+  background: #2800ad;
+  height: 1vw;
+  z-index: -1;
+}
